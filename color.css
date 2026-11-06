@@ -1,0 +1,17 @@
+body
+{
+    background-color: rgb(184, 184, 185);
+}
+header
+{
+    text-align: center;
+}
+nav
+{
+    display: inline-block;
+    padding: 12px 24px;
+    font-family: system-ui,sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 8px;
+}
