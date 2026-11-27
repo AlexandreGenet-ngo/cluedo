@@ -14,4 +14,16 @@ nav
     font-weight: 600;
     text-decoration: none;
     border-radius: 8px;
+    border: 2px;
+    color: #f5ecd7;
+    background-color: #5E2B66;
+    border-color: antiquewhite;
+}
+h1
+{
+    border: 2px;
+    text-transform: uppercase;
+    background-color: lightsalmon;
+    color:#f5ecd7;
+    
 }
