@@ -14,13 +14,13 @@
 </header>
 <body>
     <?php
-    $regle = "Le Cluedo est un jeu de déduction dans lequel les joueurs doivent découvrir qui a commis un
-    meurtre, avec quelle arme, et dans quelle pièce du manoir. Le but est de parcourir les
-    différentes pièces, émettre des hypothèses sur l'identité du meurtrier, l'arme utilisée, et
-    l'endroit où le crime a été commis. À chaque tour, le joueur formule des hypothèses et
-    reçoit des indices pour affiner ses suppositions. Le joueur remporte la partie s’il devine
-    correctement la combinaison (personnage, arme, pièce).";
-    echo "<h3>".$regle."</h3>";
+    $regle1 = "Le Cluedo est un jeu de déduction dans lequel les joueurs doivent découvrir qui a commis un
+    meurtre, avec quelle arme, et dans quelle pièce du manoir." 
+    $regle2 = "Le but est de parcourir les
+    différentes pièces, émettre des hypothèses sur l'identité du meurtrier, l'arme utilisée, et l'endroit où le crime a été commis."
+    $regle3 = " À chaque tour, le joueur formule des hypothèses et reçoit des indices pour affiner ses suppositions."
+    $regle4 = "Le joueur remporte la partie s’il devine correctement la combinaison (personnage, arme, pièce).";
+    echo "<h3>".$regle1\n, $regle2\n, $regle3\n, $regle4."</h3>";
     ?>
     <nav>
         <a href="index.php?page=acceuil">Accueil<br></a>
